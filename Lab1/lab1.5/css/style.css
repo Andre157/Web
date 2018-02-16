@@ -1,0 +1,159 @@
+* {
+    margin: auto;
+    font-family: 'PT Sans',sans-serif;
+}
+
+body {
+    background-color: rgb(209,209,209);
+}
+
+p {
+    margin-top: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+ 
+.fullwrap {
+    width: 600px;
+    background: white;
+    margin: 30px;  
+}
+
+.wrap {
+    width: 540px;
+    margin-top: 10px;
+}
+
+.header {
+    width: 600px;
+    margin-bottom: 30px;
+}
+ 
+.text {
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#mid {
+    text-align: center;    
+}
+ 
+.post1 {
+    width: 250px;
+    float: left;
+    margin: 10px 40px 0 0;
+}
+
+.post2 {
+    width: 250px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.post3 {
+    font-size: 15px;
+    width: 150px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.post4 {
+    width: 150px;
+    float: left;
+    margin: 10px 45px 0 45px;
+}
+.post4 p{
+    margin-top: 17px;
+}
+.post5 {
+    font-size: 15px;
+    width: 150px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.img1 {
+    width: 250px;
+    height: 200px;
+}
+ 
+.img2 {
+    width: 150px;
+    height: 200px;
+}
+ 
+.footer {
+    font-size: 10px;
+    width: 600px;
+    height: 100px; 
+    color: white;
+    text-align: center;
+    margin:0;
+}
+ 
+.footer p a {
+    color:white;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    width: 540px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    margin: 40px 30px 20px;
+}
+
+.post1 button {
+    width: 250px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin: 20px 0 20px;
+}
+
+.post2 button {
+    width: 250px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin: 20px 0 20px;
+}
+
+.post3 button {
+    width: 150px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin: 20px 0 20px;
+}
+
+.post4 button {
+    width: 150px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin: 20px 0 20px;
+}
+
+.post5 button {
+    width: 150px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin: 20px 0 20px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.both {
+    clear:both;
+}

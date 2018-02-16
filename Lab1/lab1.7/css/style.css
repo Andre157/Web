@@ -1,0 +1,120 @@
+* {
+    margin: auto;
+    font-family: 'PT Sans',sans-serif;
+}
+
+body {
+    background-color: rgb(9,133,157);
+}
+
+p {
+    margin-top: 15px;
+}
+
+.fullwrap {
+    width: 700px;
+    background: white;
+    margin: 20px;  
+    padding-bottom: 10px;
+}
+ 
+.wrap {
+    width: 540px;
+    margin-top: 20px;
+}
+
+.wrap p{
+    font-weight: bold;
+}
+
+#mid {
+    text-align: center;
+}
+.header {
+    width: 640px;
+    margin: 0 30px;
+}
+ 
+.text {
+    width: 540px;
+    margin-top: 20px;
+}
+ 
+.center {
+    text-align: center;
+}
+ 
+.left {
+    width: 250px;
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+
+.right {
+    width: 250px;
+    float: left;
+    margin: 10px 0px 10px 20px;
+}
+ 
+.img {
+    width: 250px;
+    height: 200px;
+}
+
+.both {
+    clear:both;
+}
+
+.footer {
+    width: 640px;
+    height: 160px;
+    background: rgb(9,133,157);
+    color: #fff;
+    text-align: center;
+    margin:30px;
+}
+
+.footer a {
+    font-weight: bold;
+}
+
+.footer p {
+    margin:0;
+}
+
+.footer img {
+    width:40px;
+    height:40px;
+    margin:20px 10px 10px 0px;
+}
+
+#text {
+    color:white;
+}
+
+button {
+    width: 540px;
+    height:40px;
+    font-weight: bold; 
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    border:  none;
+    color: white;
+    margin: 5px 0 5px;
+}
+
+.left button {
+    width: 250px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin:5px 0 10px;
+}
+
+.right button {
+    width: 250px;
+    height:40px;
+    background: rgb(207,91,78);
+    border-radius: 10px;
+    margin:5px 0 10px;
+}

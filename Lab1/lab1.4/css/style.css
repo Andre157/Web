@@ -1,0 +1,33 @@
+.fullwrap {
+	background: black;
+	padding: 10px;
+}
+.header {	
+	background: cyan;
+	height: 50px;
+}
+.wrap {
+	background: green;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main {	
+	background: blue;
+	width: 60%;
+	height: 400px;
+	float:left;
+}
+.sidebar {
+	background: orange;
+	width: 35%;
+	height: 400px;
+	float:right;
+}
+.both {
+	clear: both;
+}
+.footer {
+	background: purple;
+	height: 75px;
+}
