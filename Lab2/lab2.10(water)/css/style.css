@@ -1,0 +1,28 @@
+div {
+	position: absolute;
+}
+.main{
+	width: 540px;
+	height: 420px;
+	background: rgb(128,205,198);
+}
+.world{
+	top: 100px;
+	width: 540px;
+}
+.water{
+	width: 540px;
+	top: 384px;
+	z-index:1;
+}
+.wooden-ship{
+	width: 110px;
+	top: 285px;
+  	left: 18px;
+}
+.clouds{
+	width: 320px;
+  	top: -7px;
+  	left: 210px;
+
+}
