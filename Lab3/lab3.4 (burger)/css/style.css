@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: rgb(39, 30, 32);
+}
+
+.fullwrap{
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 980px;  
+  height: 430px;
+  background: white;
+}
+
+.main-img{
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+
+}
+
+.main-img img{
+  display: block;
+  background: rgb(100,100,50);
+  max-width: 330px;
+  height: 430px;
+}
+
+.pop{
+  background: black;
+  width: 340px;
+  height: 200px;
+  position: absolute;
+  bottom: 40px;
+  right: 5px;
+}
+
+.main{
+  float: left;
+  text-align: center;
+  width: 650px;
+}
+
+.top-block{
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.list{
+  padding: 35px 80px 40px 70px;
+  position: relative;
+}
+
+.unit{
+  width: 160px;
+  height: 72px;
+  padding: 20px 30px 5px 30px;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(213, 213, 213);
+}
+
+.unit:after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: gray;
+  transform: rotate(45deg);
+  margin-top: 31px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.butt{
+  position: relative;
+}
+
+.ar{
+  padding: 40px 65px 30px 64px;
+  text-align: center;
+  line-height: 0.9;
+  font-weight: bold;
+}
+
+.big-text{
+  font-size: 40px;
+}
+
+.pr-gray{
+  color: gray;
+}
+
+.col{
+  color: yellow;
+}
+
+.clear{
+  clear: both;
+}
+
+button{
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 15px 30px;
+  background: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover{
+  background: green;
+}
+
+button:active{
+  background: red;
+}
