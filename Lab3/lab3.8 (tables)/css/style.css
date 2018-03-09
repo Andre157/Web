@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 24px;
+}
+
+.full{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.colom{
+  margin: 5px 20px 5px 0px;
+  float: left;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.money{
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 26px;
+}
+.name-tar{
+  color: #fff;
+  padding: 0 0 15px;
+}
+
+.atext{
+  font-size: 16px;
+  color: #858585;
+  padding: 5px;
+}
+
+.atext-border{
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.atext-border:after{
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  width: 90%;
+  border-top: 2px dotted #858585;
+  content: "";
+}
+
+button{
+  padding: 15px 23px;
+  margin: 10px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+.green{
+  border: 2px solid #16a086;
+}
+
+.yellow{
+  border: 2px solid #F39C11FF;
+}
+
+.red{
+  border: 2px solid #C1392BFF;
+}
+
+.green-bg{
+  background: #16a086;
+}
+
+.yellow-bg{
+  background: #F39C11FF;
+}
+
+.red-bg{
+  background: #C1392BFF;
+}
+
+.green-b{
+  border-bottom: 10px solid #129279FF;
+}
+
+.yellow-b{
+  border-bottom: 10px solid #CC810CFF;
+}
+
+.red-b{
+  border-bottom: 10px solid #A12F24FF;
+}

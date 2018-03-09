@@ -1,0 +1,30 @@
+*{
+	  font-family: Calibri;
+	  margin:0px;
+	  padding:0px;
+}
+
+.main{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #81B522FF;
+   color: white;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+ 
+td {
+    border: 1px solid black;
+}
+ 
+td:nth-child(even) {
+    background-color: #E5FFB8FF;
+}
+ 
+td:nth-child(odd) {
+    background-color: #EFFFD3FF;
+}
+ 
